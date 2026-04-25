@@ -22,13 +22,13 @@ const Navbar: FC = () => {
           fontWeight: 'bold', 
           color: 'var(--accent-growth)' 
         }}>
-          GROWTH_ENGINEER_v1.0
+          GROWTH_MARKETER_v1.0
         </div>
         <div style={{ display: 'flex', gap: '2rem' }}>
-          <a href="#about">About</a>
-          <a href="#metrics">Metrics</a>
-          <a href="#cases">Case Studies</a>
-          <a href="#contact">Contact</a>
+          <a href="#about">소개</a>
+          <a href="#metrics">주요 지표</a>
+          <a href="#cases">프로젝트</a>
+          <a href="#contact">문의</a>
         </div>
       </div>
     </nav>

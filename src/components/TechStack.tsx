@@ -2,16 +2,16 @@ import type { FC } from 'react';
 
 const TechStack: FC = () => {
   const stacks = [
-    { category: 'Analytics', tools: ['GA4', 'Mixpanel', 'Amplitude', 'Tableau', 'Looker'] },
-    { category: 'Engagement', tools: ['Braze', 'HubSpot', 'Klaviyo', 'Intercom', 'Customer.io'] },
-    { category: 'Acquisition', tools: ['Meta Ads', 'Google Ads', 'LinkedIn Ads', 'SEO (Ahrefs)', 'SEM'] },
-    { category: 'Engineering', tools: ['SQL', 'Python (Pandas)', 'Javascript', 'Segment', 'HTML/CSS'] },
+    { category: '데이터 분석', tools: ['GA4', 'Mixpanel', 'Amplitude', 'Tableau', 'Looker'] },
+    { category: 'CRM 및 인게이지먼트', tools: ['Braze', 'HubSpot', 'Klaviyo', 'Intercom', 'Customer.io'] },
+    { category: '유저 획득(UA)', tools: ['Meta Ads', 'Google Ads', 'LinkedIn Ads', 'SEO (Ahrefs)', 'SEM'] },
+    { category: '엔지니어링 기술', tools: ['SQL', 'Python (Pandas)', 'Javascript', 'Segment', 'HTML/CSS'] },
   ];
 
   return (
     <section id="stack" style={{ backgroundColor: 'var(--bg-secondary)' }}>
       <div className="container">
-        <h2 style={{ marginBottom: '3rem', fontSize: '2.5rem' }}>Core <span style={{ color: 'var(--accent-growth)' }}>Stack</span>.</h2>
+        <h2 style={{ marginBottom: '3rem', fontSize: '2.5rem' }}>핵심 <span style={{ color: 'var(--accent-growth)' }}>기술 스택</span>.</h2>
         <div style={{ 
           display: 'grid', 
           gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', 

@@ -2,16 +2,16 @@ import type { FC } from 'react';
 
 const MetricsOverview: FC = () => {
   const metrics = [
-    { label: 'Organic Search Growth', value: '145%', trend: '+', subtext: 'YoY increase in SEO traffic' },
-    { label: 'Conversion Rate', value: '4.8%', trend: '+', subtext: 'Optimized from 2.1% base' },
-    { label: 'Retention (D30)', value: '32%', trend: '+', subtext: 'High-intent segment focus' },
-    { label: 'ROAS', value: '4.2x', trend: '+', subtext: 'Across Meta & Google Ads' },
+    { label: '오가닉 유입 성장', value: '145%', trend: '+', subtext: 'SEO 최적화를 통한 전년 대비 성장' },
+    { label: '전환율(CVR) 최적화', value: '4.8%', trend: '+', subtext: '2.1%에서 점진적 개선 달성' },
+    { label: '리텐션 (D30)', value: '32%', trend: '+', subtext: '고관여 유저 세그먼트 집중 관리' },
+    { label: '광고 수익률(ROAS)', value: '4.2x', trend: '+', subtext: 'Meta 및 Google 광고 성과' },
   ];
 
   return (
     <section id="metrics" style={{ backgroundColor: 'var(--bg-secondary)' }}>
       <div className="container">
-        <h2 style={{ marginBottom: '3rem', fontSize: '2.5rem' }}>The <span style={{ color: 'var(--accent-growth)' }}>Numbers</span> Don't Lie.</h2>
+        <h2 style={{ marginBottom: '3rem', fontSize: '2.5rem' }}>데이터는 <span style={{ color: 'var(--accent-growth)' }}>거짓말</span>하지 않습니다.</h2>
         <div style={{ 
           display: 'grid', 
           gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', 
